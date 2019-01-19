@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="de.tenminuteapps.letseat.ListActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/am_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="@dimen/toolbar_elevation"
+        app:titleTextColor="@color/white">
+
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/am_framelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:elevation="@dimen/fragment_elevation" />
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/am_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/am_toolbar"
+        android:layout_margin="@dimen/root_margin"
+        tools:context="de.tenminuteapps.letseat.AddActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/general"
+                android:textSize="@dimen/heading_text_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/add_modify_indentation"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/am_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="@string/name"
+                    android:inputType="text" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/am_duration"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:hint="@string/duration"
+                        android:inputType="numberDecimal" />
+
+                    <Spinner
+                        android:id="@+id/am_difficulty"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                    </Spinner>
+
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/am_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                </Spinner>
+
+
+            </LinearLayout>
+
+            <include layout="@layout/seperator" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/main_components"
+                android:textSize="@dimen/heading_text_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/add_modify_indentation"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/am_potatoes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/potatoes" />
+
+                    <CheckBox
+                        android:id="@+id/am_rice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/rice" />
+
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/am_nuddles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/nuddles" />
+
+                <include layout="@layout/seperator" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/am_pork"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/pork" />
+
+                    <CheckBox
+                        android:id="@+id/am_fish"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/fish" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/am_beef"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/beef" />
+
+                    <CheckBox
+                        android:id="@+id/am_vegetarian"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/vegetarian" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/am_chicken"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/chicken" />
+
+                    <CheckBox
+                        android:id="@+id/am_vegan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/vegan" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <include layout="@layout/seperator" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ingredients"
+                android:textSize="@dimen/heading_text_size" />
+
+            <LinearLayout
+                android:id="@+id/am_ingredients_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/add_modify_indentation"
+                android:orientation="vertical">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/am_minus"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="20dp"
+                    android:onClick="onClick"
+                    android:src="@drawable/minus" />
+
+                <ImageView
+                    android:id="@+id/am_plus"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:onClick="onClick"
+                    android:src="@drawable/plus" />
+
+            </LinearLayout>
+
+            <include layout="@layout/seperator" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textSize="@dimen/heading_text_size" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/add_modify_indentation">
+
+                <EditText
+                    android:id="@+id/am_description_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="top|left"
+                    android:inputType="textMultiLine"
+                    android:lines="5" />
+
+            </RelativeLayout>
+
+            <include layout="@layout/seperator" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notes"
+                android:textSize="@dimen/heading_text_size" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/add_modify_indentation">
+
+                <EditText
+                    android:id="@+id/am_notes_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="top|left"
+                    android:inputType="textMultiLine"
+                    android:lines="5" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

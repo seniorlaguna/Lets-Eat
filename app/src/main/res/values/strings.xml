@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Let\'s Eat</string>
+
+    <string name="general">Allgemein</string>
+    <string name="main_components">Hauptbestandteile</string>
+    <string name="ingredients">Zutaten</string>
+    <string name="description">Anleitung</string>
+    <string name="notes">Notizen</string>
+
+    <string name="potatoes">Kartoffeln</string>
+    <string name="nuddles">Nudeln</string>
+    <string name="rice">Reis</string>
+
+    <string name="pork">Schwein</string>
+    <string name="beef">Rind</string>
+    <string name="chicken">Hühnchen</string>
+    <string name="fish">Fisch</string>
+    <string name="vegan">Vegan</string>
+    <string name="vegetarian">Vegetarisch</string>
+
+    <string name="name">Name</string>
+    <string name="duration">Dauer</string>
+    <string name="difficulty">Schwierigkeitsgrad</string>
+    <string name="category">Kategorie</string>
+
+    <string-array name="difficulties">
+        <item>Einfach</item>
+        <item>Normal</item>
+        <item>Schwierig</item>
+    </string-array>
+
+    <string name="ingredient">Zutat</string>
+
+    <string name="title_add_recipe">Rezept hinzufügen</string>
+    <string name="title_modify_recipe">Rezept ändern</string>
+    <string name="title_show_recipes">Meine Rezepte</string>
+    <string name="title_import_recipe">Rezept importieren</string>
+
+    <string name="add_category">Kategorie hinzufügen</string>
+    <string name="remove_category">Kategorie entfernen</string>
+
+    <string name="filter">Filtern Nach</string>
+    <string name="ascending">Aufsteigend</string>
+    <string name="descending">Absteigend</string>
+    <string name="ok">OK</string>
+    <string name="add">Hinzufügen</string>
+    <string name="remove">Entfernen</string>
+    <string name="cancel">Abbrechen</string>
+
+    <string name="category_added">Kategorie hinzufügt</string>
+    <string name="no_category">Unkategorisiert</string>
+    <string name="add_category_entry">Kategorie hinzufügen</string>
+    <string name="remove_category_entry">Kategorie entfernen</string>
+
+    <string name="recipe_added">Rezept hinzugefügt</string>
+    <string name="recipe_added_error">Allgemeine Informationen müssen vorhanden sein</string>
+    <string name="recipe_modified">Änderung gespeichert</string>
+
+    <string name="my_recipes">Meine Rezepte</string>
+    <string name="random_recipe">Zufallsrezept</string>
+    <string name="add_new_recipe">Rezept Hinzufügen</string>
+    <string name="import_recipe">Rezept Importieren</string>
+
+    <string name="modify">Ändern</string>
+    <string name="cooking_time">Kochzeit</string>
+
+    <string name="sure">Sicher?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+
+    <string name="recipe_deleted">Rezept wurde gelöscht</string>
+    <string name="search">Suchbegriff</string>
+    <string name="no_recipe">Keine Rezepte Vorhanden</string>
+
+    <string name="delete">Löschen</string>
+    <string name="share">Teilen</string>
+
+    <string formatted="false" name="share_text">Hi,\nich würde gerne dieses Rezept mit dir teilen :)\n\n%s\nZum Importieren diese Nachricht in der Lets Eat App einfügen:\n\n%s\n\nLets Eat - Der RezepteManager\n%s</string>
+    <string name="market_url">https://play.google.com/store/apps/details?id=de.tenminuteapps.letseat</string>
+
+    <string name="recipe_text">Rezepttext</string>
+    <string name="import_from_chefkoch">Importieren von Chefkoch.de</string>
+    <string name="import_from_text">Importieren vom Text</string>
+
+    <string name="url">Chefkoch - URL</string>
+    <string name="import_error">Beim Importieren ist ein Fehler aufgetreten</string>
+    <string name="apologize">Entschuldigung, diese Funktion steht zur Zeit noch nicht zur Verfügung!</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:textSize">15dp</item>
+
+    </style>
+
+    <dimen name="root_margin">10dp</dimen>
+    <dimen name="show_bottom_margin">35dp</dimen>
+    <dimen name="add_modify_indentation">30dp</dimen>
+    <dimen name="heading_text_size">20dp</dimen>
+    <dimen name="toolbar_elevation">15dp</dimen>
+    <dimen name="fragment_padding">20dp</dimen>
+    <dimen name="fragment_elevation">30dp</dimen>
+    <dimen name="fragment_button_left_margin">30dp</dimen>
+    <dimen name="fragment_right_padding">60dp</dimen>
+    <dimen name="fragment_heading_margin_bottom">30dp</dimen>
+    <dimen name="main_button_width">250dp</dimen>
+    <dimen name="main_button_bottom_margin">25dp</dimen>
+    <dimen name="main_button_elevation">20dp</dimen>
+    <dimen name="main_logo_margin">40dp</dimen>
+    <dimen name="logo_width">270dp</dimen>
+    <dimen name="logo_height">192dp</dimen>
+
+</resources>

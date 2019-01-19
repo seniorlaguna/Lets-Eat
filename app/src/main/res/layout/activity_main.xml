@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="de.tenminuteapps.letseat.MainActivity">
+
+    <ImageView
+        android:layout_width="@dimen/logo_width"
+        android:layout_height="@dimen/logo_height"
+        android:layout_marginBottom="@dimen/main_logo_margin"
+        android:layout_marginTop="@dimen/main_logo_margin"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+
+    <Button
+        android:id="@+id/main_my_recipes"
+        android:layout_width="@dimen/main_button_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/main_button_bottom_margin"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="@dimen/main_button_elevation"
+        android:onClick="onClick"
+        android:text="@string/my_recipes"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/main_random_recipe"
+        android:layout_width="@dimen/main_button_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/main_button_bottom_margin"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="@dimen/main_button_elevation"
+        android:onClick="onClick"
+        android:text="@string/random_recipe"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/main_add_recipe"
+        android:layout_width="@dimen/main_button_width"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/main_button_bottom_margin"
+        android:layout_gravity="center_horizontal"
+        android:elevation="@dimen/main_button_elevation"
+        android:text="@string/add_new_recipe" />
+
+    <Button
+        android:id="@+id/main_import_recipe"
+        android:layout_width="@dimen/main_button_width"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/main_button_bottom_margin"
+        android:layout_gravity="center_horizontal"
+        android:elevation="@dimen/main_button_elevation"
+        android:text="@string/import_recipe" />
+
+</LinearLayout>

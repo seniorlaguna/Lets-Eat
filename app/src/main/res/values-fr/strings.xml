@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Let\'s Eat</string>
+
+    <string name="general">General</string>
+    <string name="main_components">Main Components</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="description">Instruction</string>
+    <string name="notes">Notes</string>
+
+    <string name="potatoes">Potatoes</string>
+    <string name="nuddles">Noodles</string>
+    <string name="rice">Rice</string>
+
+    <string name="pork">Pork</string>
+    <string name="beef">Beef</string>
+    <string name="chicken">Chicken</string>
+    <string name="fish">Fish</string>
+    <string name="vegan">Vegan</string>
+    <string name="vegetarian">Vegetarian</string>
+
+    <string name="name">Name</string>
+    <string name="duration">Duration</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="category">Category</string>
+
+    <string-array name="difficulties">
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string name="ingredient">Ingredient</string>
+
+    <string name="title_add_recipe">Add Recipe</string>
+    <string name="title_modify_recipe">Modify Recipe</string>
+    <string name="title_show_recipes">My Recipes</string>
+    <string name="title_import_recipe">Import Recipe</string>
+
+    <string name="add_category">Add Category</string>
+    <string name="remove_category">Remove Category</string>
+
+    <string name="filter">Filter</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+    <string name="ok">OK</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="category_added">Category Added</string>
+    <string name="no_category">No Category</string>
+    <string name="add_category_entry">Add Category</string>
+    <string name="remove_category_entry">Remove Category</string>
+
+    <string name="recipe_added">Recipe Added</string>
+    <string name="recipe_added_error">Please Insert General Information</string>
+    <string name="recipe_modified">Changes Saved</string>
+
+    <string name="my_recipes">My Recipes</string>
+    <string name="random_recipe">Random Recipe</string>
+    <string name="add_new_recipe">Add Recipe</string>
+    <string name="import_recipe">Import Recipe</string>
+
+    <string name="modify">Modify</string>
+    <string name="cooking_time">Duration</string>
+
+    <string name="sure">Sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="recipe_deleted">Recipe Deleted</string>
+    <string name="search">Keyword</string>
+    <string name="no_recipe">No Recipes Found</string>
+
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+
+    <string formatted="false" name="share_text">Hi,\nI would like to share this recipe with you :)\n\n%s\nTo Import Copy This Message And Insert It In Lets Eat App:\n\n%s\n\nLets Eat - Recipe Manager\n%s</string>
+    <string name="market_url">https://play.google.com/store/apps/details?id=de.tenminuteapps.letseat</string>
+
+    <string name="recipe_text">Message Text</string>
+    <string name="import_from_chefkoch">Import from Chefkoch.de</string>
+    <string name="import_from_text">Import From Message</string>
+
+    <string name="url">Chefkoch - URL</string>
+    <string name="import_error">Sorry There Was An Import Error</string>
+    <string name="apologize">Sorry, This Function Is Not Implemented Yet!</string>
+
+</resources>

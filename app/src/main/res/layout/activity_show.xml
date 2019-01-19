@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="de.tenminuteapps.letseat.ShowActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/show_toolbar"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/toolbar_elevation"/>
+
+    <FrameLayout
+        android:id="@+id/show_fragment_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:elevation="@dimen/fragment_elevation">
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/root_margin"
+        android:layout_below="@id/show_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/show_toolbar"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/heading_text_size"
+                android:text="@string/general"/>
+
+            <include layout="@layout/seperator" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/show_bottom_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/show_recipe_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/show_recipe_difficulty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/show_recipe_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/main_components"
+                android:textSize="@dimen/heading_text_size" />
+
+            <include layout="@layout/seperator" />
+
+            <LinearLayout
+                android:id="@+id/show_main_components_list"
+                android:layout_marginBottom="@dimen/show_bottom_margin"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ingredients"
+                android:textSize="@dimen/heading_text_size" />
+
+            <include layout="@layout/seperator" />
+
+            <LinearLayout
+                android:id="@+id/show_ingredients_list"
+                android:layout_marginBottom="@dimen/show_bottom_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textSize="@dimen/heading_text_size" />
+
+            <include layout="@layout/seperator" />
+
+            <TextView
+                android:id="@+id/show_recipe_description"
+                android:layout_marginBottom="@dimen/show_bottom_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/notes"
+                android:textSize="@dimen/heading_text_size" />
+
+            <include layout="@layout/seperator" />
+
+            <TextView
+                android:id="@+id/show_recipe_notes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

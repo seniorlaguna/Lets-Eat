@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="de.tenminuteapps.letseat.ImportActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/import_toolbar"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        android:elevation="@dimen/toolbar_elevation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:padding="@dimen/root_margin"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/import_edittext_chefkoch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/url"/>
+
+        <Button
+            android:id="@+id/import_from_chefkoch_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="@dimen/root_margin"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/import_from_chefkoch"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/invisible"
+            android:layout_marginBottom="@dimen/main_button_bottom_margin"
+            android:onClick="onClick"/>
+
+    </RelativeLayout>
+
+    <include layout="@layout/seperator" />
+
+    <RelativeLayout
+        android:padding="@dimen/root_margin"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/import_from_base64_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="@dimen/root_margin"
+            android:text="@string/import_from_text"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/invisible"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:onClick="onClick" />
+
+        <EditText
+            android:id="@+id/import_edittext_base64"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/recipe_text"
+            android:inputType="textMultiLine"
+            android:layout_above="@id/import_from_base64_button"
+            android:lines="10" />
+
+    </RelativeLayout>
+
+</LinearLayout>
