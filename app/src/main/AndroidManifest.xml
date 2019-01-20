@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.tenminuteapps.letseat">
+    package="org.seniorlaguna.letseat">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="org.seniorlaguna.letseat.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,18 +19,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AddActivity"
+            android:name="org.seniorlaguna.letseat.AddActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ModifyActivity"
+            android:name="org.seniorlaguna.letseat.ModifyActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ShowActivity"
+            android:name="org.seniorlaguna.letseat.ShowActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ListActivity"
+            android:name="org.seniorlaguna.letseat.ListActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".ImportActivity"
+        <activity android:name="org.seniorlaguna.letseat.ImportActivity"
             android:screenOrientation="portrait" />
     </application>
 

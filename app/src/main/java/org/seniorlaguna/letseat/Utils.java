@@ -1,4 +1,4 @@
-package de.tenminuteapps.letseat;
+package org.seniorlaguna.letseat;
 
 import android.app.Activity;
 import android.content.Context;

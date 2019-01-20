@@ -1,4 +1,4 @@
-package de.tenminuteapps.letseat;
+package org.seniorlaguna.letseat;
 
 /**
  * Created by user on 08.07.17.

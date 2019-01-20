@@ -6,7 +6,7 @@
     android:gravity="center_horizontal"
     android:orientation="vertical"
     android:background="@color/colorPrimary"
-    tools:context="de.tenminuteapps.letseat.MainActivity">
+    tools:context="org.seniorlaguna.letseat.MainActivity">
 
     <ImageView
         android:layout_width="@dimen/logo_width"
